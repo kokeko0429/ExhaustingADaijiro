@@ -59,7 +59,7 @@ app.get('/', function(req, res) {
 });
 
 // Add new locations here.
-var sites = ['london', 'netherlands', 'birmingham', 'gwangju'];
+var sites = ['TOKYO', 'IWATE', 'KYOTO', 'gwangju'];
 sites.forEach(function(site) {
   app.get('/' + site, function(req, res) {
     returnSite(req,res);
